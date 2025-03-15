@@ -45,8 +45,8 @@ set (RAPIDJSON_ENABLE_INSTRUMENTATION_OPT OFF CACHE BOOL "" FORCE)
 FetchContent_Declare(
     rapidjson
     #    GIT_TAG f9d53419e912910fd8fa57d5705fa41425428c35 - latest but broken revision
-    URL https://github.com/Tencent/rapidjson/archive/973dc9c06dcd3d035ebd039cfb9ea457721ec213.tar.gz
-    URL_HASH SHA256=d0c9e52823d493206eb721d38cb3a669ca0212360862bd15a3c2f7d35ea7c6f7
+    GIT_REPOSITORY https://github.com/Tencent/rapidjson.git
+    GIT_TAG v1.1.0
 )
 FetchContent_MakeAvailable(rapidjson)
 
